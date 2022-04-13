@@ -9,6 +9,9 @@
 ```shell
 $ go build
 ```
+```shell
+$ ./import.sh HSET_KEY COUNT //import test data to localhost:6379
+```
 ### Run
 > **Warning** cluster mode is DEFAULT. Or -clusterMode=false
 
